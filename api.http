@@ -1,0 +1,29 @@
+### Skill Index Request
+GET http://localhost:80/api/v1/skills
+Accept: application/json
+
+### Skill Store Request
+POST http://localhost:80/api/v1/skills
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Vue JS",
+    "slug": "Vue JS"
+}
+
+### Skill Update Request
+PUT http://localhost:80/api/v1/skills/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Laravel",
+    "slug": "laravel"
+}
+
+### Skill Show Request
+GET http://localhost:80/api/v1/skills/1
+
+### Skill Delete Request
+DELETE http://localhost:80/api/v1/skills/2
